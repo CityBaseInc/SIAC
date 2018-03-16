@@ -1,0 +1,15 @@
+# First rule - delete all
+-D
+
+# Increase the buffers to survive stress events.
+# Make this bigger for busy systems
+-b 320
+
+# Feel free to add below this line. See auditctl man page
+-w /home -p w -k audit-wazuh-w
+-w /home -p a -k audit-wazuh-a
+-w /home -p r -k audit-wazuh-r
+-w /home -p x -k audit-wazuh-x
+
+-a exit,always -F euid=0 -F arch=b64 -S execve -k audit-wazuh-c
+-a exit,always -F euid=0 -F arch=b32 -S execve -k audit-wazuh-c
