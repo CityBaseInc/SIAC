@@ -1,6 +1,6 @@
 # SIAC
 
-SIAC is a SIEM In A Can.  It's pronounced like "sigh-ack."
+SIAC is a SIEM In A Can.  It's pronounced like "sigh-ack."  SIAC can run in the cloud, on bare metal, or a hybrid environment.
 
 ## Background
 
