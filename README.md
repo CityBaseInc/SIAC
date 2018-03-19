@@ -274,7 +274,7 @@ curl -so /etc/filebeat/filebeat.yml https://raw.githubusercontent.com/citybasebr
 yes | apt-get install packetbeat &&
 curl -so /etc/packetbeat/packetbeat.yml https://raw.githubusercontent.com/citybasebrooks/SIAC/master/configs/packetbeat.yml &&
 
-echo "Done.  Script completed successfully!"
+echo "*****Done.  Script completed successfully*****"
 ```
 Assuming the script completes without issues, you're almost done.
 
