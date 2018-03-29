@@ -121,6 +121,7 @@ The following commands will set up the repositories for Wazuh, Java, Node, and E
 apt-get update
 apt-get install curl apt-transport-https lsb-release 
 curl -s https://packages.wazuh.com/key/GPG-KEY-WAZUH | apt-key add -
+echo "deb https://packages.wazuh.com/3.x/apt/ stable main" | tee -a /etc/apt/sources.list.d/wazuh.list
 apt-get update
 apt-get install auditd
 apt-get install wazuh-manager=3.2.0-1
