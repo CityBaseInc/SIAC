@@ -230,7 +230,7 @@ The client-side stack is an amalgamation of lightweight software which generates
 * [Auditd](https://www.systutorials.com/docs/linux/man/8-auditd/) (Linux auditing system)
 * [Packetbeat](https://www.elastic.co/products/beats/packetbeat) (network data + transport)
 
-Installation of the client stack is very straightforward.
+Installation of the client stack is very straightforward on Linux.  Please note that if you're installing the agent on Windows, you will need to generate an agent key.  This process is documented [here](https://documentation.wazuh.com/current/user-manual/registering/registration-process.html).  There is an easy [powershell script](https://raw.githubusercontent.com/wazuh/wazuh-api/3.2/examples/api-register-agent.ps1) provided that works very well for registering agents using the RESTful API. Be advised that you need to configure the script to point to your installation directory (on the local windows system) and configure the “Wazuh-Manager-IP” to the IP Address of your server.
 
 **Requirements:** 64-bit Ubuntu Desktop 16.04 LTS, 2GB RAM, 1 CPU core.
 
