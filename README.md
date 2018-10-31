@@ -95,7 +95,7 @@ This type of relationship mapping can be applied to any indexed data such as DNS
 
 #### Raw Search
 
-Elasticsearch and the Lucene query syntax are extremely powerful for searching very large volumes of indexed data.  A detailed tutorial on using ELK to search data is beyong the scope of this documentation, but once SIAC is up and running, you can experiment with searching data in the filebeat, packetbeat, and wazuh-alerts, indexes.
+Elasticsearch and the Lucene query syntax are extremely powerful for searching very large volumes of indexed data.  A detailed tutorial on using ELK to search data is beyond the scope of this documentation, but once SIAC is up and running, you can experiment with searching data in the filebeat, packetbeat, and wazuh-alerts, indexes.
 
 #### Flexibility
 
